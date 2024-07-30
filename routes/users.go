@@ -22,3 +22,13 @@ func signup(context *gin.Context) {
 
 	context.JSON(http.StatusCreated, gin.H{"message": "User created"})
 }
+
+func getUsers(context *gin.Context) {
+	users, err := models.GetAllUsers()
+
+	if err != nil {
+		context.JSON(http.StatusInternalServerError, gin.H{"message": "Could not fetch data"})
+	}
+
+	context.JSON(http.StatusOK, users)
+}
