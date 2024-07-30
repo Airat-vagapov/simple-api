@@ -2,8 +2,8 @@ POST http://localhost:8080/events
 content-type: application/json
 
 {
-    "name": "Test update 2",
-    "description": "Test update event",
-    "location": "Test upd location",
+    "name": "For delete",
+    "description": "Will deleted",
+    "location": "It's doesn't matter",
     "dateTime": "2025-01-01T15:30:00.000Z"
 }
