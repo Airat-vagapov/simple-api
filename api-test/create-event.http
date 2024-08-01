@@ -1,9 +1,10 @@
 POST http://localhost:8080/events
 content-type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRleHRAbWFpbC5ydSIsImV4cCI6MTcyMjUzNzc1MSwidXNlcklkIjowfQ.j0KvRmsnFM1XQiEjYaGbk6IZYPfcoyV58C_g_3LtsvA
 
 {
-    "name": "For delete",
-    "description": "Will deleted",
+    "name": "Test event 12312",
+    "description": "Tesxasd asd",
     "location": "It's doesn't matter",
     "dateTime": "2025-01-01T15:30:00.000Z"
 }
